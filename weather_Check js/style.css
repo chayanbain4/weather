@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 18, 18);
+
+}
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 700px;
+    height: max-content;
+    background-color: white;
+    border-radius: 12px;
+    padding: 80px;
+}
+
+.search-box{
+    width:60%;
+    height: min-content;
+    display: flex;
+    margin-left: 160px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-box input{
+    width: 100%;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 16px;
+    border-radius: 50px;
+}
+
+.search-box input::placeholder{
+    color: black;
+}
+
+.search-box button{
+    width: 45px;
+    height: 45px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.weather-body img{
+    width: 20%;
+    
+}
+
+
+.weather-box{
+    margin-block: 40px;
+    text-align: center;
+}
+
+.weather-box .temperature{
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: 800;
+    position: relative;
+}
+
+.weather-box .temperature sup{
+    font-size: 20px;
+    margin-left: px;
+    position: absolute;
+    font-weight: 600;
+}
+
+.weather-box .description{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+
+.weather-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.humidity, .wind{
+    display: flex;
+    align-items: center;
+}
+
+.humidity{
+    margin-left: 50px;
+}
+
+.wind{
+    margin-right: px;
+}
+
+.weather-details i{
+    font-size: 36px;
+}
+
+.weather-details .text{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.text span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.location-not-found{
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location-not-found h1{
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-block-end: 15px;
+}
+.location-not-found img{
+    width: 80%;
+}
+
+
+
